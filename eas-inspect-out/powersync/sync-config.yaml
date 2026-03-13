@@ -1,0 +1,11 @@
+config:
+  edition: 3
+
+streams:
+  global:
+    auto_subscribe: true
+    queries:
+      - SELECT * FROM households
+      - SELECT * FROM household_members
+      - SELECT * FROM family_members
+      - SELECT * FROM pantry_items
