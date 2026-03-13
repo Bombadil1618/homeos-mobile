@@ -1,5 +1,7 @@
 node_modules
 .expo
+.eas-inspect-out
+eas-inspect-out
 .git
 android
 ios
